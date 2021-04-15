@@ -1,6 +1,6 @@
 {
   "name": "react-native-tab-view-tgp",
-  "version": "3.0.1-tgp",
+  "version": "3.0.2",
   "description": "Tab view component for React Native",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
@@ -16,12 +16,9 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn",
-    "prepare": "bob build"
+    "bootstrap": "yarn example && yarn"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+ 
   "keywords": [
     "react-native-component",
     "react-component",
@@ -35,14 +32,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satya164/react-native-tab-view.git"
+    "url": "git+https://github.com/thegitparticle/react-native-tab-view-tgp.git"
   },
-  "author": "Satyajit Sahoo <satyajit.happy@gmail.com> (https://github.com/satya164/)",
+  "author": "thegitparticle - froked from Satyajit Sahoo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/satya164/react-native-tab-view/issues"
-  },
-  "homepage": "https://github.com/satya164/react-native-tab-view#readme",
+  "homepage": "https://github.com/thegitparticle/react-native-tab-view-tgp#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^12.1.1",
     "@expo/vector-icons": "^12.0.4",
