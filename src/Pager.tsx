@@ -320,5 +320,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'stretch',
+    overflow: 'visible'
   },
 });

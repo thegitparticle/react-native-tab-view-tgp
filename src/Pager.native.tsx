@@ -156,5 +156,6 @@ export default function Pager<T extends Route>({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    overflow: 'visible'
   },
 });
